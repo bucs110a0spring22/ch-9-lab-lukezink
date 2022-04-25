@@ -1,6 +1,11 @@
 class Rectangle:
   
   def __init__(self,x,y,h,w):
+    """
+    Initializes the values.
+    Takes integers
+    Returns none
+    """
     if x>0:
       self.x = x
     else:
@@ -19,5 +24,10 @@ class Rectangle:
       self.width=0
 
   def __str__(self):
+    """
+    Returns a string of the value
+    Takes self and uses self attributes
+    Returns a string
+    """
     blablah = "x: "+str(self.x)+", y: "+str(self.y)+", height: "+str(self.height)+", width: "+str(self.width)
     return blablah
