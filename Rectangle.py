@@ -29,5 +29,5 @@ class Rectangle:
     Takes self and uses self attributes
     Returns a string
     """
-    blablah = "x: "+str(self.x)+", y: "+str(self.y)+", height: "+str(self.height)+", width: "+str(self.width)
-    return blablah
+    result = "x: "+str(self.x)+", y: "+str(self.y)+", height: "+str(self.height)+", width: "+str(self.width)
+    return result
